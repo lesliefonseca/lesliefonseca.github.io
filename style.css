@@ -1,7 +1,9 @@
 html {
-    background: rgb(208, 152, 161);
+    background: rgb(191, 152, 109);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
 }
 
 h1 {
-    color: blue;
+    color: rgb(255, 255, 255);
 }
