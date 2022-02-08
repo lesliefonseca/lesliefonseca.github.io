@@ -1,0 +1,35 @@
+body{
+    background-color:rgb(88, 109, 94)
+}
+
+.headerlowered {
+    text-align: center;
+    font-size: 95px;
+    font-family: 'Smythe', cursive;
+    color:rgb(255, 255, 255);
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 37%;
+}
+.text-center {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+ .button-center {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+ }
