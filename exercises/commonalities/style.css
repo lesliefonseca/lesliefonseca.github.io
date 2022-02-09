@@ -1,0 +1,49 @@
+ul{
+    font-family: sans-serif;
+    color: red
+  }
+  h1{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+  }
+  h2{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  body{
+    margin: 50px;
+    background-color: black;
+  
+  }
+  .piercing{
+    color:rgb(185,185,56);
+  }
+  .comd{
+    color:orange;
+  }
+  .apple{
+    color:lightgreen 
+  }
+  .pasta{
+    color: yellow;
+  }
+  .language{
+    color:#03A9F4 
+  }
+  
+  .siblings{
+    color:green;
+  }
+  .season{
+    color: rgb(163,86,163);
+      
+  }
+  .shows{
+    color: rgb(231,113,134)
+  }
+  
+  .anime{
+    color:darkred
+  }
