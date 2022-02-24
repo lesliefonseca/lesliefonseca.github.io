@@ -1,10 +1,9 @@
-
 body {
-    font-family: 'Roboto Serif', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 600; 
+    background-color: cadetblue;
     color: white;
-    background-color: rgb(74, 136, 85);
   }
   
   .wrapper {
@@ -14,13 +13,14 @@ body {
   }
   
   h1 {
-    font-size: 20px;
+    font-size: 36px;
     font-weight: 600;
     margin: 0;
   }
   
   .entries {
     margin-bottom: 60px;
+    font-weight: 300;
   }
   
   .heading {
@@ -29,6 +29,8 @@ body {
   
   .chapter {
     letter-spacing: 10px;
+    font-weight: 600;
+    
   }
   
   p {

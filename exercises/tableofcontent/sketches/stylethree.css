@@ -1,10 +1,9 @@
-
 body {
-    font-family: 'Roboto Serif', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    color: white;
-    background-color: rgb(74, 136, 85);
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 100;
+    color: thistle;
+    background-color: black;
+    
   }
   
   .wrapper {
@@ -14,9 +13,9 @@ body {
   }
   
   h1 {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 36px;
     margin: 0;
+    font-weight: 100;
   }
   
   .entries {

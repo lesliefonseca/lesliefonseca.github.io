@@ -1,10 +1,9 @@
-
 body {
-    font-family: 'Roboto Serif', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgb(147, 113, 191);
     color: white;
-    background-color: rgb(74, 136, 85);
   }
   
   .wrapper {
@@ -14,9 +13,8 @@ body {
   }
   
   h1 {
-    font-size: 20px;
-    font-weight: 600;
-    margin: 0;
+    font-size: 18px;
+     margin: 0;
   }
   
   .entries {
