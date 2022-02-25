@@ -24,3 +24,15 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
 }
+
+@keyframes spinType {
+    0% {
+      transform: rotate(0.5turn);
+    }
+    60% {
+      transform: rotate(0.7turn);
+    }
+    100% {
+      transform: rotate(1turn);
+    }
+  }
