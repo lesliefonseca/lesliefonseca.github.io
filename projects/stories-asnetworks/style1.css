@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.header {
+padding: 60px;
+position: absolute;
+top: 8px;
+font-family: 'Source Code Pro', monospace;
+font-size: 10px;
+
+}
+
+.phraseone {
+    padding: 40px;
+    text-align: left;
+    font-family: 'Noto Serif Display', serif;
+    font-size:40px;
+    font-style: italic;
+    font-weight: 400;
+    animation:  duration timing-function delay iteration-count direction fill-mode;
+}
+.continue-button {
+    position: absolute;
+    padding: 70px;
+    bottom: 0;
+    left: 0;
+    font-size: 25px;
+    font-style: normal;
+    font-family: 'Source Code Pro', monospace;
+}
+a {
+    color: white;
+    text-decoration: none;
+}

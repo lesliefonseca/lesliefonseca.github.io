@@ -1,27 +1,46 @@
-
 body {
-    background-color: pink;
-    font-family: arial;
-    color: red;
-    font-size: 100px;
+  background-color: rgb(255, 255, 255);
+}
+
+#red-square{
+width: 600px;
+height: 600px;
+position: relative;
+animation: moving 5s infinite;
+animation-timing-function: linear;
+}
+@keyframes moving {
+  from {left:0px;}
+  to{left:200px;}
+}
+#green-rectangle {
+  height: 500px;
+}
+@keyframes greenrectangleSpin {
+  0% {
+    transform: rotate(0turn);
   }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+#green-rectangle {
+  animation: greenrectangleSpin 5s ease-out infinite;
+  height: 500px;
+}
+
+#green-rectangle path, #green-rectangle circle {
+  animation: colorSwap 5s ease-in infinite alternate, fade 5s ease-in infinite alternate-reverse;
+}
+
+#green-rectangle:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
+h1 {
+  font-family:'Roboto Mono', monospace ;
+  font-size: 15px;
+  align-self: center;
   
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .item {
-    text-align: center;
-    animation: spinType 2s;
-  }
-@keyframes spinType {
-    0% {
-      transform: rotate(0.7turn);
-    }
-    100% {
-      transform: rotate(2turn);
-    }
+}
+ 
