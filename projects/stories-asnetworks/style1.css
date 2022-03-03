@@ -13,7 +13,7 @@ body{
     font-weight: 100;
     letter-spacing: 4px;
 }
-.quote {
+.quote-animation {
     font-family: 'Noto Serif Display', serif;
     font-size:60px;
     font-style: italic;
@@ -24,7 +24,13 @@ body{
     left: 100px;
     top: 150px;
     text-align: left;
+    animation: fadeIn infinite 8s;
 }
+@keyframes fadeIn {
+    40% {opacity:0;}
+    100% {opacity: 1;}
+}
+
 .continue-button{
 font-family: 'Roboto', sans-serif;
 position: absolute;

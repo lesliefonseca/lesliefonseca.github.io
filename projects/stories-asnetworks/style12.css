@@ -4,19 +4,19 @@ body{
 }
 .paragraph-one{
     position: absolute;
-    width: 700px;
+    width: 800px;
     height: 800px;
-    left: 180px;
-    top: 250px;
+    left: 150px;
+    top: 200px;
     font-size: 25px;
-    animation: fadeIn infinite 7s;
+    animation: fadeIn linear 7s;
 }
 @keyframes fadeIn {
-    70% {opacity: 0;}
-    20% {opacity:1;}
-}
+    30% {opacity: 0;}
+    100% {opacity: 1;}
+    }
 .continue-button{
- font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
 position: absolute;
 font-size: 20px;
 width: 300px;

@@ -9,7 +9,12 @@ body{
     left: 140px;
     top: 200px;
     font-size: 25px;
+    animation: fadeIn infinite 7s;
 }
+@keyframes fadeIn {
+    30% {opacity: 0;}
+    100% {opacity: 1;}
+    } 
 .continue-button{
  font-family: 'Roboto', sans-serif;
 position: absolute;
