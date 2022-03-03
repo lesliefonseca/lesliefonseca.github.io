@@ -2,35 +2,51 @@ body{
     background-color: black;
     color: white;
 }
-
 .header {
-padding: 60px;
-position: absolute;
-top: 8px;
-font-family: 'Source Code Pro', monospace;
-font-size: 10px;
-
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    width: 300px;
+    height: 20px;
+    left: 100px;
+    top: 100px;
+    font-weight: 100;
+    letter-spacing: 4px;
 }
-
-.phraseone {
-    padding: 40px;
-    text-align: left;
+.quote {
     font-family: 'Noto Serif Display', serif;
-    font-size:40px;
+    font-size:60px;
     font-style: italic;
     font-weight: 400;
-    animation:  duration timing-function delay iteration-count direction fill-mode;
-}
-.continue-button {
     position: absolute;
-    padding: 70px;
-    bottom: 0;
-    left: 0;
-    font-size: 25px;
-    font-style: normal;
-    font-family: 'Source Code Pro', monospace;
+    width: 800px;
+    height: 30px;
+    left: 100px;
+    top: 150px;
+    text-align: left;
+}
+.continue-button{
+font-family: 'Roboto', sans-serif;
+position: absolute;
+font-size: 25px;
+width: 300px;
+height: 50px;
+left: 100px;
+top: 600px;
+letter-spacing: 4px;
 }
 a {
     color: white;
     text-decoration: none;
+}
+.menu {
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+position: relative;
+width: 300px;
+height: 10px;
+left: 900px;
+top: -5px;
+transform: rotate(-89.73deg);
+letter-spacing: 2px;
 }

@@ -1,21 +1,35 @@
-body{
+body {
     background-color: black;
     color: white;
 }
-h1 {
-   display: block; 
-   margin-left: auto;
-   margin-right: auto;
-   font-size: 10vh;
-}
-.continue-button {
+.header {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 5px;
+    font-size: 30px;
     position: absolute;
-    padding: 70px;
-    bottom: 0;
-    left: 0;
-    font-size: 25px;
-    font-style: normal;
-    font-family: 'Source Code Pro', monospace;
+    width: 700px;
+    height: 800px;
+    left: 350px;
+    top: 300px;
+}
+.name {
+font-family: 'Roboto', sans-serif;
+font-size: 10px;
+position: absolute;
+width: 700px;
+height: 700px;
+left: 200px;
+top: 150px;
+}
+.first-begin{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    left: 610px;
+    bottom: -600px;
+    letter-spacing: 5px;
 }
 a {
     color: white;
