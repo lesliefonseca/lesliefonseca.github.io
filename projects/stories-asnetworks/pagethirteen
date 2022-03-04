@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style13.css">
+    <title>page seven</title>
+</head>
+<body>
+<div class="paragraph-one">
+<p> There is a cold and desolate tinge to the light by the time it reaches these panels. The little sunlight from the garden that manages to make its way beneath the eaves and through the corridors has by then lost its power to illuminate, seems drained of the complexion of life. It can do no more than accentuate the whiteness of the paper. I sometimes linger before these panels and study the surface of the paper, bright, but giving no impression of brilliance.
+In temple architecture the main room stands at a considerable distance from the garden; so dilute is the light there that no matter what the season, on fair days or cloudy, morning, midday, or evening, the pale, white glow scarcely varies. And the shadows at the interstices of the ribs seem strangely immobile, as if dust collected in the corners had become a part of the paper itself. I blink in uncertainty at this dreamlike luminescence, feeling as though some misty film were blunting my vision  </p>
+</div>
+<div class="continue-button">
+<a href="pagefourteen.html">continue</a>
+</div>
+<div class="menu">
+<a href="index.html">MENU</a>
+</div>
+</body>
+</html>

@@ -1,14 +1,31 @@
 body{
-    background-color: black;
     color: white;
+    background: linear-gradient(-45deg, #000000, #393234, #c4bfbb, #575b5a);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
 }
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+
+}
+
 .paragraph-one{
     position: absolute;
-    width: 700px;
-    height: 800px;
-    left: 180px;
+    width: 900px;
+    height: 700px;
+    left: 200px;
     top: 250px;
-    font-size: 25px;
+    font-size: 2vw;
     animation: fadeIn infinite 7s;
 }
 @keyframes fadeIn {
@@ -18,11 +35,11 @@ body{
 .continue-button{
  font-family: 'Roboto', sans-serif;
 position: absolute;
-font-size: 20px;
+font-size: 1.5vw;
 width: 300px;
-height: 50px;
-left: 100px;
-top: 600px;
+height: 700px;
+left: 200px;
+
 letter-spacing: 4px;   
 }
 a {
@@ -31,12 +48,12 @@ a {
 }
 .menu {
 font-family: 'Roboto', sans-serif;
-font-size: 20px;
+font-size: 1vw;
 position: relative;
-width: 300px;
-height: 10px;
-left: 900px;
-top: -5px;
+width: 600px;
+height: 5px;
+left:700px;
+
 transform: rotate(-89.73deg);
 letter-spacing: 2px;
 }
