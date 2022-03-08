@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+h1 {
+    display: block;
+    font-size: 1.5em;
+    position: absolute;
+    width: 300px;
+    height: 20px;
+    left: 100px;
+    top: 90px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 3px;
+}
+.intro-quote {
+  font-size: 3.5em;
+  font-style: italic;
+  font-family: 'Josefin Sans', sans-serif;
+  position: absolute;
+  width: 800px;
+  height: 30px;
+  left: 100px;
+  top: 200px;
+  text-align: left;
+  animation: fadeIn infinite 7s;
+}
+@keyframes fadeIn {
+    100% {opacity:1;}
+    50% {opacity: 0;}
+}
+.continue-button {
+    position: absolute;
+    font-size: 1.5em;
+    width: 300;
+    height: 50px;
+    left: 100px;
+    top: 500px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+a {
+    color: white;
+    text-decoration: none;  
+}
+.menu {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+    position: absolute;
+    width: 600px;
+    height: 5px;
+    left: 900px;
+    top: -200px;
+    transform: rotate(-89.73deg);
+    letter-spacing: 2px;
+}
+

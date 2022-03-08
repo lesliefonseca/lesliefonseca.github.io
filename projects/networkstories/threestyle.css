@@ -1,0 +1,95 @@
+body{
+    background-color: black;
+    color: white;
+    animation-name: backgroundColorPalette;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes backgroundColorPalette {
+    0% {
+        background: rgb(194, 187, 187);
+    }
+    25%{
+    background: rgb(131, 126, 126);
+    }
+    50% {
+        background: rgb(87, 84, 84);
+    }
+    75% {
+        background: rgb(62, 56, 56);
+    }
+    100% {
+        background: rgb(0, 0, 0);
+    }
+
+}
+#container{
+    width: 960px;
+    margin: 0 auto;
+}
+.col1 {
+    font-size: 1em;
+    width: 450px;
+    float: left;
+    margin: 30px;
+    padding: 0;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+}
+.coll2 {
+    font-size: 1em;
+    width: 450px;
+    float: left;
+    margin: 30px;
+    padding: 0;
+    position: absolute;
+    top: 42%;
+    left: 70%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+    
+   
+}
+.menu {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+    position: absolute;
+    width: 600px;
+    height: 5px;
+    left: 60%;
+    top: -300px;
+    transform: rotate(-89.73deg);
+    letter-spacing: 2px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.continue-button {
+    position: absolute;
+    font-size: 1.5em;
+    width: 00;
+    height: 50px;
+    left: -570px;
+    top: 500px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+.fade-text {
+    color: rgb(240, 231, 176);
+    animation: fadeIn infinite 6s;
+    font-style: italic;
+    }
+    @keyframes fadeIn {
+        100% {opacity:1;}
+        0% {opacity: 0;}
+    }
+    
