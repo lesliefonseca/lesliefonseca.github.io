@@ -32,7 +32,7 @@ body {
     margin: 0 auto;
 }
 .col1 {
-    font-size: 1em;
+    font-size: 16px;
     width: 450px;
     float: left;
     margin: 30px;
@@ -45,7 +45,7 @@ body {
     text-align: justify;
 }
 .coll2 {
-    font-size: 1em;
+    font-size: 16px;
     width: 450px;
     float: left;
     margin: 30px;
@@ -61,7 +61,7 @@ body {
 }
 .menu {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5em;
+    font-size: 24px;
     position: absolute;
     width: 600px;
     height: 5px;
@@ -76,7 +76,7 @@ a {
 }
 .continue-button {
     position: absolute;
-    font-size: 1.5em;
+    font-size: 24px;
     width: 00;
     height: 50px;
     left: -570px;
@@ -94,8 +94,3 @@ font-style: italic;
     100% {opacity:1;}
     0% {opacity: 0;}
 }
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-  }
