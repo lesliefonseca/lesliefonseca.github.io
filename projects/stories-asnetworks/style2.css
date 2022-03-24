@@ -27,6 +27,7 @@ body{
     top: 250px;
     font-size: 2vw;
     animation: fadeIn infinite 7s;
+    filter: blur(2px);
 }
 @keyframes fadeIn {
     70% {opacity: 0;}
