@@ -32,13 +32,13 @@ btn.addEventListener('click', function onClick() {
 
   index = index >= colors.length - 1 ? 0 : index + 1;
 });
-
-const colorbtn = document.getElementById('colorbtn');
-
-colorbtn.addEventListener('click', function onClick(event) {
-  document.body.style.backgroundColor = 'green';
-  index = index >= backgroundcolor.length - 1 ? 0 : index + 1;
-});
+var place =0;
+function changeColor() {
+ var colorList = ["hotpink","deeppink","palevioletred"];
+document.body.style.backgroundColor = colorList[place]; 
+place++;
+ if (place ===colorList.length) place=0; 
+}
 function changeStyle(){
   var element = document.getElementById("myElement");
   element.style.fontFamily = "verdana";
