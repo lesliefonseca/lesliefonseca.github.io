@@ -23,3 +23,31 @@ function changeToDarkMode() {
     console.log("dark mode is on!");
   }
 }
+const btn = document.getElementById('btn');
+
+let index = 0;
+
+const colors = ['pink', 'red', 'orange', 'yellow'];
+
+btn.addEventListener('click', function onClick() {
+  btn.style.backgroundColor = colors[index];
+  btn.style.color = 'white';
+
+  index = index >= colors.length - 1 ? 0 : index + 1;
+});
+
+const colorbtn = document.getElementById('colorbtn');
+
+colorbtn.addEventListener('click', function onClick(event) {
+  document.body.style.backgroundColor = 'green';
+  index = index >= backgroundcolor.length - 1 ? 0 : index + 1;
+});
+function changeFont(){
+  var fon = document.getElementById("posts");
+      if (fon.style.fontFamily == "Amatic SC") {
+          fon.style.font = "150% Times New Roman";
+      }
+      else {
+          fon.style.font = "200% Amatic SC";
+      }
+  }
