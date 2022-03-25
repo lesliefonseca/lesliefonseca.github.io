@@ -42,12 +42,3 @@ colorbtn.addEventListener('click', function onClick(event) {
   document.body.style.backgroundColor = 'green';
   index = index >= backgroundcolor.length - 1 ? 0 : index + 1;
 });
-function changeFont(){
-  var fon = document.getElementById("posts");
-      if (fon.style.fontFamily == "Amatic SC") {
-          fon.style.font = "150% Times New Roman";
-      }
-      else {
-          fon.style.font = "200% Amatic SC";
-      }
-  }
