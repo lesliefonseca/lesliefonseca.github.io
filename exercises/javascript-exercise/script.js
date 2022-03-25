@@ -42,3 +42,7 @@ colorbtn.addEventListener('click', function onClick(event) {
   document.body.style.backgroundColor = 'green';
   index = index >= backgroundcolor.length - 1 ? 0 : index + 1;
 });
+function changeStyle(){
+  var element = document.getElementById("myElement");
+  element.style.fontFamily = "monospace";
+}
