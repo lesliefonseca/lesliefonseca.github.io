@@ -1,11 +1,8 @@
 var anythingIWant = document.body;
 
 var isDark = false;
-// if i click the button
 var darkModeButton = document.getElementById("buttonDarkMode");
 darkModeButton.addEventListener("click",changeToDarkMode);
-// background color changes
-//text color changes 
 
 function changeToDarkMode() { 
   if(isDark === true) {
@@ -44,5 +41,5 @@ colorbtn.addEventListener('click', function onClick(event) {
 });
 function changeStyle(){
   var element = document.getElementById("myElement");
-  element.style.fontFamily = "monospace";
+  element.style.fontFamily = "verdana";
 }
