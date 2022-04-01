@@ -6,7 +6,7 @@ return response.json();
 .then((response) => {
 var text="latitude";
 response.forEach(element=> {
-
+console.log(response)
 var tag = document.createElement ("p");
 var text = document.createTextNode (element.name);
 if (element.address.geo.lat < -30) {
