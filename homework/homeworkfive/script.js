@@ -4,7 +4,6 @@ fetch('https://jsonplaceholder.typicode.com/users')
 return response.json();
 })
 .then((response) => {
-
 var text="latitude";
 response.forEach(element=> {
 
