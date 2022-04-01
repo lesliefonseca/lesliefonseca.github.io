@@ -1,4 +1,3 @@
-document.querySelector ("ul")
 
 function getInfo() {
 fetch('https://jsonplaceholder.typicode.com/users')
