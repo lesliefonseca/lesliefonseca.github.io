@@ -13,7 +13,7 @@ response.forEach(element=> {
 var tag = document.createElement ("p");
 var text = document.createTextNode (element.name);
 if (element.address.geo.lat < -30) {
-    tag.style.color = "blue";
+    tag.style.fontFamily = "courier new";
 }
 var el = document.getElementById("result");
 tag.appendChild(text);
