@@ -1,4 +1,4 @@
-var ul = document.querySelector ("ul")
+document.querySelector ("ul")
 
 function getInfo() {
 fetch('https://jsonplaceholder.typicode.com/users')
@@ -17,6 +17,7 @@ if (element.address.geo.lat < -30) {
 var el = document.getElementById("people");
 tag.appendChild(text);
 el.appendChild(tag);
+document.querySelector ("ul")
 });
 })
 }
