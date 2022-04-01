@@ -1,6 +1,5 @@
 var ul = document.querySelector ("ul")
 
-
 function getInfo() {
 fetch('https://jsonplaceholder.typicode.com/users')
 .then(function(response) {
@@ -15,7 +14,7 @@ var text = document.createTextNode (element.name);
 if (element.address.geo.lat < -30) {
     tag.style.fontFamily = "courier new";
 }
-var el = document.getElementById("result");
+var el = document.getElementById("people");
 tag.appendChild(text);
 el.appendChild(tag);
 });
