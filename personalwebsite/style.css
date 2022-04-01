@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    background: linear-gradient(-45deg, #ffe5ec, #ffc2d1, #B0C1DB, #8EACD0);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+      
+
+.model {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+model-viewer {
+    width: 50vw;
+    height: 60vh;
+  }
+  h1 {
+    font-weight: 200;
+    font-size: 14vw;
+    color: white;
+}
+h2 {
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+}
+.activities {
+    font-size: 5vh;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+}
+.homework {
+    color: rgb(96, 133, 112);
+    font-family: 'Source Code Pro', monospace;
+   
+     font-size: 5vh;    
+}
+.projects {
+    color: rgb(96, 133, 112);
+    font-family: 'Source Code Pro', monospace;
+   
+    font-size: 5vh;
+}
+a {
+    color: rgb(193, 132, 86);
+    text-decoration: none;
+}
+  
