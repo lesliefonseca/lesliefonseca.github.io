@@ -19,5 +19,4 @@ document.querySelector ("ul")
 });
 })
 }
-
 getInfo();
