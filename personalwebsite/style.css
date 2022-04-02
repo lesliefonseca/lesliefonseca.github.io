@@ -16,8 +16,6 @@ body{
         background-position: 0% 50%;
     }
 }
-      
-
 .model {
     display: block;
     margin-left: auto;
@@ -28,34 +26,22 @@ model-viewer {
     width: 50vw;
     height: 60vh;
   }
-  h1 {
-    font-weight: 200;
-    font-size: 14vw;
-    color: white;
-}
-h2 {
-    color: white;
-    font-family: 'Source Code Pro', monospace;
-}
-.activities {
-    font-size: 5vh;
-    font-family: 'Source Code Pro', monospace;
-    color: white;
-}
-.homework {
-    color: rgb(96, 133, 112);
-    font-family: 'Source Code Pro', monospace;
-   
-     font-size: 5vh;    
-}
-.projects {
-    color: rgb(96, 133, 112);
-    font-family: 'Source Code Pro', monospace;
-   
-    font-size: 5vh;
-}
-a {
-    color: rgb(193, 132, 86);
-    text-decoration: none;
-}
-  
+  .column {
+    flex: 33.33%;
+    height: 200px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+  }
+  .container {
+     display: flex;
+  }	
+  .column {
+      font-family: 'Roboto', sans-serif; 
+      
+  }
+  a {
+      text-decoration: none;
+      color: palevioletred;
+      font-weight: 500;
+  }
