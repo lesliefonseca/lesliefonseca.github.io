@@ -11,17 +11,6 @@ body {
   }
   
   /* i'm using the z index to move the slider on top of the container */
-  .container {
-    z-index: 0;
-    display:  flex;
-    font-family: 'Rubik Microbe', cursive;
-    font-size:  15vw;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    letter-spacing: 1px;
-  }
-  
   canvas {
     position: absolute;
     top: 0;
