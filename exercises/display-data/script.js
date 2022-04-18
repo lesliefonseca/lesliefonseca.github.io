@@ -1,11 +1,11 @@
 
 let eggs = [
-    {name: "Baked Egg Boat", date: 156},
-    {name: "Egg Pizza", date: 318},
-    {name: "Avacado Toast", date: 131},
-    {name: "Kimchi Fried Rice", date: 687},
-    {name: "Omurice", date: 17300},
-    {name: "Egg Art", date: 275}
+    {name: "Baked Egg Boat", likes: 156},
+    {name: "Egg Pizza", likes: 318},
+    {name: "Avacado Toast", likes: 131},
+    {name: "Kimchi Fried Rice", likes: 687},
+    {name: "Omurice", likes: 1700},
+    {name: "Egg Art", likes: 275}
     ];
   
     // One: Use the amount to indicate how big each circle is
@@ -26,9 +26,10 @@ let eggs = [
     // adds a specific class to each new div
     newItem.classList.add("eggs" + [i]);
     // places the flower name and amount to the div
-    eggsDiv.innerHTML = eggs.name + " – " + eggs.date;
+    eggsDiv.innerHTML = eggs.name + " – " + eggs.likes;
     // sets height of flower to the amount. try changing height to width, or padding
-    eggsDiv.style.width = eggs.date + "px";
+    eggsDiv.style.width = eggs.likes + "px";
+    eggsDiv.style.height = eggs.likes + "px";
     console.log(eggs);
   }
   // loops through the flowers and runs the displayFlowers function for each one
