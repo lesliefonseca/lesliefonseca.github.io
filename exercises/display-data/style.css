@@ -1,0 +1,48 @@
+
+body {
+    background-color:  #ffa967;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .recipe {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .eggs {
+    opacity: .5;
+    mix-blend-mode: color-burn;
+    color: #000000;
+    font-size: 36px;
+    font-family: arial;
+    border-radius: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .eggs1 {
+      background-color: rgb(250, 160, 108);
+  }
+  
+  .eggs2 {
+    background-color: green;
+  }
+  
+  .eggs3 {
+    background-color: yellow;
+  }
+  
+  .eggs4 {
+    background-color: red;
+  }
+  
+  .eggs5 {
+    background-color: pink;
+  }
+  
+  .eggs6 {
+    background-color: orange;
+  }
