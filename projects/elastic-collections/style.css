@@ -1,7 +1,8 @@
 html {
-    font-family: sans-serif;
+    src: url(sunny_spells.woff);
+    font-family: myfirstfont;
     font-size: 20px;
-    background-color: lightyellow;
+    background-color:rgb(250, 202, 33);
   }
   
   body {
@@ -15,9 +16,13 @@ html {
     line-height: 0.8;
     letter-spacing: -0.04em;
     margin-bottom: 2.25rem;
+    z-index: 1;
   }
   
   p {
     line-height: 1.5;
+  }
+  span {
+    color: white;
   }
   
