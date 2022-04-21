@@ -1,14 +1,14 @@
 /* globals require */
 console.log("Hello, Airtable");
 
-let wrapper = document.querySelector(".containter");
+let wrapper = document.querySelector(".wrapper");
 
 // load the airtable library, call it "Airtable"
 let Airtable = require("airtable");
 console.log(Airtable);
 
 // use the airtable library, connect to our base using API key
-let base = new Airtable({ apiKey:  "key6JRCXYfvmDYn7L"  }).base(
+let base = new Airtable({ apiKey: "key6JRCXYfvmDYn7L" }).base(
   "appUi8RnGDomhaQLX"
 );
 
@@ -55,24 +55,26 @@ function consoleLogRecipes() {
 function showRecipes() {
   console.log("showRecipes()");
   recipes.forEach((recipe) => {
-    let recipeTextHolder = document.createElement("h1");
+    let recipeTextHolder = document.createElement("div");
     recipeTextHolder.classList.add("entry");
     recipeTextHolder.innerText = recipe.fields.name;
-     wrapper.appendChild(recipeTextHolder);
+    wrapper.appendChild(recipeTextHolder);
 
-     let imageHolder = document.createElement("img");
-     imageHolder.src = recipe.fields.images[0].url;
-     recipeTextHolder.appendChild(imageHolder);
+    let imageHolder = document.createElement("img");
+    imageHolder.src = recipe.fields.images[0].url;
+    recipeTextHolder.appendChild(imageHolder);
 
-     // let videoHolder = document.createElement("video");
-     // videoHolder.src = tiktok.fields.video[0].url;
-     // videoHolder.classList.add("tiktokVideo");
-     // videoHolder.muted = true;
-     // videoHolder.autoplay = true;
-     // videoHolder.loop = true;
-     // tiktokTextHolder.appendChild(videoHolder);
+    // let videoHolder = document.createElement("video");
+    // videoHolder.src = tiktok.fields.video[0].url;
+    // videoHolder.classList.add("tiktokVideo");
+    // videoHolder.muted = true;
+    // videoHolder.autoplay = true;
+    // videoHolder.loop = true;
+    // tiktokTextHolder.appendChild(videoHolder);
   });
 }
+
+
 
 
 
