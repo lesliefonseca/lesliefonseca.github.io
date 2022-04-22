@@ -63,8 +63,77 @@ function showRecipes() {
     let imageHolder = document.createElement("img");
     imageHolder.src = recipe.fields.images[0].url;
     recipeTextHolder.appendChild(imageHolder);
+});
+}
 
 
+  const slugify = function(name) {
+    return name.toLowerCase().replaceAll(' ', '-');
+  };
+  
+  // clean up names of tags to be lower case without spaces
+  let continents = recipes.fields.continents;
+  continents.forEach(function(continents) {
+    let continentsClassName = slugify(continents);
+    console.log('continentsClassName', continentsClassName);
+    imageHolder.classList.add(continentsClassName);
+  });
+  
+  // add event listener to our filter to add an active class to our video
+  let filterAsia = document.querySelector(".asia");
+  let asiabutton = document.querySelector(".asiabutton");
+  filterAsia.addEventListener("click", function(){
+    if (imageHolder.classList.contains("asia")) {
+      imageHolder.style.display = "block";
+      asiabutton.classList.add("active");
+    } else {
+      imageHolder.style.display = "none";
+      
+    }
+  });
+  
+  let filterEurope = document.querySelector(".europe");
+  let europeButton = document.querySelector(".europebutton");
+  filterEurope.addEventListener("click", function(){
+    if (imageHolder.classList.contains("europe")) {
+      imageHolder.style.display = "block";
+      europeButton.classList.add("active");
+    } else {
+     imageHolder.style.display = "none";
+     asiabutton.classList.remove("active");
+    }
+  });
+  
+  let filterAustralia = document.querySelector(".australia");
+  let australiaButton = document.querySelector(".australiabutton");
+  filterAustralia.addEventListener("click", function(){
+    if (imageHolder.classList.contains("australia")) {
+      imageHolder.style.display = "block";
+      australiaButton.classList.add("active");
+    } else {
+     imageHolder.style.display = "none";
+     australiaButton.classList.remove("active");
+    }
+  });
+  
+  let filterSouthAmerica = document.querySelector(".southamerica");
+  let southamericaButton = document.querySelector(".southamericabutton");
+  filterSouthAmerica.addEventListener("click", function(){
+    if (imageHolder.classList.contains("southamerica")) {
+      imageHolder.style.display = "block";
+      southamericaButton.classList.add("active");
+    } else {
+     imageHolder.style.display = "none";
+     southamericaButton.classList.remove("active");
+    }
+  });
+  
+  
+  
+  
+
+
+//dont mind this green text//
 // get trendtype field from airtable
 // loop through the array and add each trendtype as a class to the container
     // let videoHolder = document.createElement("video");
@@ -74,63 +143,4 @@ function showRecipes() {
     // videoHolder.autoplay = true;
     // videoHolder.loop = true;
     // tiktokTextHolder.appendChild(videoHolder);
-  });
-}
-
-
-
-
-
-
-
-
-
-//old code
-// //var ul = document.querySelector("ul");
-// // get the date//
-// async function getRecipes() {
-//   let response = await fetch(
-//     "https://api.airtable.com/v0/appUi8RnGDomhaQLX/recipes?api_key=key6JRCXYfvmDYn7L");
-//   let data = response.json();
-//   return data;
-// }
-
-// getRecipes().then((data) => {showRecipes(data.records);});
-
-// function showRecipes(records) {
-//   for (let i = 0; i < records.length; i++) {
-//     let name = records[i].fields.name;
-//     let origin = records[i].fields.origin;
-//     let creator =records[i].fields.creator;
-//     let site = records[i].fields.site;
-//     let images = records[i].fields.images.url;
-
-//     let wrapper = document.querySelector(".containter");
-    
-//     let listItem = document.createElement("li");
-//     let nameItem = document.createElement("h2");
-//     let creatorItem = document.createElement("h3");
-//     let siteItem = document.createElement("h4");
-//     let imagesItem = document.createElement("img");
-
-
-//     imagesItem.src = images;
-    
-//     listItem.appendChild(document.createTextNode(origin));
-//     wrapper.appendChild(listItem);
-    
-//     listItem.appendChild(document.createTextNode(name));
-//     wrapper.appendChild(listItem);
-    
-//     listItem.appendChild(document.createTextNode(creator));
-//     wrapper.appendChild(creatorItem);
-    
-//      listItem.appendChild(document.createTextNode(site));
-//      wrapper.appendChild(siteItem);
   
-//     listItem.appendChild(document.createTextNode(images));
-//     wrapper.appendChild(imagesItem);
-    
-//     console.log("show origin");
-//   }
-// }//

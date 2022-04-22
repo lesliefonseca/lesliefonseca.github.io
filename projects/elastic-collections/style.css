@@ -45,20 +45,64 @@ img {
 .entry {
   font-family: "Varela Round", sans-serif;
   color: black;
+  
 }
-.home{
+.home {
   font-size: 20px;
   font-family: "Varela Round", sans-serif;
-  text-align: left;
+  display: inline-block;
+  padding: 0 65px 0 65px;
+  
 }
 .continent{
+  display: inline-block;
+  padding: 0 65px 0 65px;
   font-size: 20px;
   font-family: "Varela Round", sans-serif;
+  
 
 }
 .about{
   font-size: 20px;
   font-family: "Varela Round", sans-serif;
+  display: inline-block;
+  padding: 0 45px 0 45px;
+  
 }
 
 
+
+a:link {
+  color: black;
+  
+}
+
+a:hover {
+  color: red;
+}
+
+
+.filter {
+  margin: 20px 0;
+  font-family: arial;
+  font-size: 15px;
+}
+
+.filter span {
+background-color: white;
+padding: 5px 10px;
+border: 2px solid black;
+border-radius: 20px;
+
+}
+
+.filter span:hover {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+
+.asiabutton.active, .europebutton.active {
+  color: white;
+  background-color: rgb(0, 0, 0);
+}
