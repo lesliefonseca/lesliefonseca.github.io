@@ -88,10 +88,10 @@ a:hover {
 
 .filter span {
 background-color: white;
-padding: 5px 10px;
-border: 2px solid black;
-border-radius: 20px;
-
+padding: 3px 10px;
+border: 2px solid rgb(255, 185, 22);
+border-radius: 30px;
+color: black;
 }
 
 .filter span:hover {
@@ -110,4 +110,11 @@ border-radius: 20px;
 h2 {
   font-family: "Varela Round", sans-serif;
   text-align: center;
+}
+.dragging {
+  cursor: grab;
+  overflow: auto;
+}
+img:hover {
+  transform: scale(0.9, 0.9);
 }

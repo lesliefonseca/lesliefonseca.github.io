@@ -1,0 +1,76 @@
+html {
+    font-size: 20px;
+    background-color: rgb(255, 232, 124);
+  }
+  
+  body {
+    max-width: 32rem;
+    margin: 0 auto;
+    padding: 6rem 1rem;
+  }
+  
+  h1 {
+    font-size: 60px;
+    line-height: 0.9;
+    letter-spacing: -0.05em;
+    margin-bottom: 2.5rem;
+    z-index: 1;
+    color: black;
+    font-family: "Varela Round", sans-serif;
+    text-align: center;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  img {
+  /*  width: 500px;
+    height: 300px;*/
+    width: 100%;
+    align-items: stretch;
+    border: 8px solid rgb(253, 204, 91);
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    border-radius: 20px;
+  }
+  
+  .wrapper {
+    /*  display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;*/
+    column-count: 2;
+    column-gap: 30px;
+    margin-top: 100px;
+  }
+  .entry {
+    font-family: "Varela Round", sans-serif;
+    color: black;
+  }
+  .home {
+    font-size: 20px;
+    font-family: "Varela Round", sans-serif;
+    display: inline-block;
+    padding: 0 65px 0 65px;
+    color: black;
+    
+  }
+  .continent{
+    display: inline-block;
+    padding: 0 65px 0 65px;
+    font-size: 20px;
+    font-family: "Varela Round", sans-serif;
+    color: black;
+  
+  }
+  .about{
+    font-size: 20px;
+    font-family: "Varela Round", sans-serif;
+    display: inline-block;
+    padding: 0 45px 0 45px;
+    color: black;
+    
+  }
+  .creator {
+      color: pink;
+  }

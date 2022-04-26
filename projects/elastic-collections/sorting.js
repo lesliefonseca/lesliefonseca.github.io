@@ -63,8 +63,7 @@ function showRecipes() {
     let imageHolder = document.createElement("img");
     imageHolder.src = recipe.fields.images[0].url;
     recipeTextHolder.appendChild(imageHolder);
-});
-}
+
 
 
   const slugify = function(name) {
@@ -72,7 +71,11 @@ function showRecipes() {
   };
   
   // clean up names of tags to be lower case without spaces
-  let continents = recipes.fields.continents;
+
+
+// moved everything inside the show recipe function
+  //changed recipes to recipe
+  let continents = recipe.fields.continents;
   continents.forEach(function(continents) {
     let continentsClassName = slugify(continents);
     console.log('continentsClassName', continentsClassName);
@@ -88,7 +91,7 @@ function showRecipes() {
       asiabutton.classList.add("active");
     } else {
       imageHolder.style.display = "none";
-      
+      asiabutton.classList.remove("active");
     }
   });
   
@@ -100,7 +103,7 @@ function showRecipes() {
       europeButton.classList.add("active");
     } else {
      imageHolder.style.display = "none";
-     asiabutton.classList.remove("active");
+     europeButton.classList.remove("active");
     }
   });
   
@@ -128,19 +131,35 @@ function showRecipes() {
     }
   });
   
+  let filterNorthAmerica = document.querySelector(".northamerica");
+  let northamericaButton = document.querySelector(".northamerica");
+  filterNorthAmerica.addEventListener("click", function(){
+    if (imageHolder.classList.contains("northamerica")) {
+      imageHolder.style.display = "block";
+      northamericaButton.classList.add("active");
+    } else {
+     imageHolder.style.display = "none";
+     northamericaButton.classList.remove("active");
+    }
+  });
   
+  let filterAfrica = document.querySelector(".africa");
+  let africaButton = document.querySelector(".africa");
+  filterAfrica.addEventListener("click", function(){
+    if (imageHolder.classList.contains("africa")) {
+      imageHolder.style.display = "block";
+      africaButton.classList.add("active");
+    } else {
+     imageHolder.style.display = "none";
+     africaButton.classList.remove("active");
+    }
+  });
+
+  });
+}
   
   
 
 
-//dont mind this green text//
-// get trendtype field from airtable
-// loop through the array and add each trendtype as a class to the container
-    // let videoHolder = document.createElement("video");
-    // videoHolder.src = tiktok.fields.video[0].url;
-    // videoHolder.classList.add("tiktokVideo");
-    // videoHolder.muted = true;
-    // videoHolder.autoplay = true;
-    // videoHolder.loop = true;
-    // tiktokTextHolder.appendChild(videoHolder);
-  
+
+     
