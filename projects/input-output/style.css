@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'pilowlavaregular';
+    src: url('pilowlava-regular-webfont.woff2') format('woff2'),
+         url('pilowlava-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    text-align:center;
+    margin:auto;
+    background-image: url("https://cdn.glitch.global/80801623-ab9a-444f-828e-06fb8e2cb6fb/mesh-gradient%20(16).png?v=1651707934004");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+   
+  }
+  img{
+    max-width: 140px;
+    margin:16px;
+  }
+  h1 {
+      color: white;
+      text-shadow: 5px 5px rgb(208, 71, 150,1);
+      font-family: 'pilowlava', Arial, sans-serif;
+      font-size: 96px;
+      position: absolute;
+      width: 1096px;
+      height: 79px;
+      left: 103px;
+      top: 310px;
+      
+      
+  }
+  
