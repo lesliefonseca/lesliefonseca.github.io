@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'pilowlavaregular';
-    src: url('pilowlava-regular-webfont.woff2') format('woff2'),
-         url('pilowlava-regular-webfont.woff') format('woff');
+    src: url('fonts/Pilowlava-Regular.woff') format('woff2'),
+         url('fonts/Pilowlava-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -29,14 +29,14 @@ body {
 
 
   img{
-    max-width: 180px;
+    max-width: 190px;
     margin:16px;
   }
   h1 {
       color: white;
       text-shadow: 5px 5px rgb(76, 55, 139);
       font-family: 'pilowlava', Arial, sans-serif;
-      font-size: 96px;
+      font-size: 95px;
       
       
   }
