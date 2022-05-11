@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'pilowlavaregular';
-    src: url('fonts/Pilowlava-Regular.woff') format('woff2'),
+    src: url('fonts/Pilowlava-Regular.woff') format('woff'),
          url('fonts/Pilowlava-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
