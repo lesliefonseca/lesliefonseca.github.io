@@ -6,6 +6,12 @@ let calmURL = "https://cdn.glitch.global/80801623-ab9a-444f-828e-06fb8e2cb6fb/ca
 
 let happyURL = "https://cdn.glitch.global/80801623-ab9a-444f-828e-06fb8e2cb6fb/happy.png?v=1652152345994";
 
+let proudURL = "https://cdn.glitch.global/80801623-ab9a-444f-828e-06fb8e2cb6fb/proud.PNG?v=1652312144888" ;
+
+let nervousURL = "https://cdn.glitch.global/80801623-ab9a-444f-828e-06fb8e2cb6fb/nervous.png?v=1652312152328";
+
+let passionURL = "https://cdn.glitch.global/80801623-ab9a-444f-828e-06fb8e2cb6fb/passion.png?v=1652312156958 ";
+
 let inputElement = document.querySelector("#input");
 
 let result = document.querySelector("#result");
@@ -42,24 +48,35 @@ inputElement.addEventListener("keydown",function(event){
       let selectedCard = document.createElement("img");
       
       
-      if (["a", "b", "c", "d", "e", "f"].includes(color)){
+      if (["s", "t", "r", "e", "s", "d"].includes(color)){
         selectedCard.src = sadURL;
       }
       
      
-      if (["g", "h", "i", "j", "k", "l"].includes(color) ){
+      if (["d", "w", "m", "s", "a", "d"].includes(color) ){
         selectedCard.src = stressedURL;
       }
       
      
-      if (["m", "n", "o", "p", "q", "r"].includes(color)){
+      if (["h", "p", "a", "y", "w", "o"].includes(color)){
         selectedCard.src = happyURL;
       }
-      
-      
-      if (["s", "t", "u", "v", "w", "x", "y", "z"].includes(color)){
+        
+      if (["h", "a", "p", "y", "c","a"].includes(color)){
         selectedCard.src = calmURL;
       }
+
+      if (["u", "g", "c", "h", "p"].includes(color)){
+        selectedCard.src = proudURL;
+      }
+      if (["n", "e", "v", "u", "s", "r"].includes(color)){
+        selectedCard.src = nervousURL;
+      }
+      if (["l", "e", "v", "u", "x", "i"].includes(color)){
+        selectedCard.src = passionURL;
+      }
+      
+      
       
       result.appendChild(selectedCard);
       

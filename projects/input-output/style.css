@@ -9,7 +9,7 @@
 body {
     text-align:center;
     margin:auto;
-    background: linear-gradient(-45deg, #49a77f, #3a766c, #976abc, #fb92cd);
+    background: linear-gradient(-45deg, #4a9df0, #3e957e, #c586f5, #ed3945);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     height: 100vh;
@@ -41,10 +41,10 @@ body {
       
   }
   p{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     text-shadow: 2px 2px rgb(61, 33, 155);
-    font-size: 20px;
+    font-size: 25px;
   }
 
   input{
